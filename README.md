@@ -29,7 +29,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Leaderboard <a name="about-project"></a>
+# 📖 Morse Decode <a name="about-project"></a>
 
 **Morse Decode**  is a method used in telecommunication to decode symbol characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs.[3][4] Morse code is named after Samuel Morse, one of the inventors of the telegraph.
 
