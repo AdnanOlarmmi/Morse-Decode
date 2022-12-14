@@ -23,7 +23,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
-- [👤 Author](#author)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -33,7 +33,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is a scoreboard showing the names and current scores of leading competitors stored and fetched from a Database with an API. It is also organized by scores in descending order.
+**Morse Decode**  is a method used in telecommunication to decode symbol characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs.[3][4] Morse code is named after Samuel Morse, one of the inventors of the telegraph.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,28 +42,14 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a></li>
-    <li><a href="https://webpack.js.org/">WebPack</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Responsive Design.**
-- **Pixel Perfect design.**
-- **API Call.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Here is the link to the live experience](https://adnanolarmmi.github.io/Leaderboard/).
-
-> |     | Mobile version                      | Desktop version                      |     |
-> | --- | ----------------------------------- | ------------------------------------ | --- |
-> |     | ![Screenshot1](./images/mobile.gif) | ![Screenshot2](./images/desktop.gif) |
+- **Decoding Morse Code.**
+- **Use Ruby.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,10 +61,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
 - An IDE e.g [Visual studio code](https://code.visualstudio.com/).
-- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
-- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 - [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
@@ -86,19 +69,19 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-git clone https://github.com/AdnanOlarmmi/Leaderboard.git
+git clone https://github.com/AdnanOlarmmi/Morse-Decode.git
 ```
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd Leaderboard``**
+**``you@your-Pc-name:~$ cd Morse-Decode``**
 
 ### Install
 
 To install all dependencies, run:
 
 ```
-npm install
+bundle install
 ```
 
 ### Usage
@@ -106,37 +89,19 @@ npm install
 To run the project, follow these instructions:
 
 - After Cloning this repo to your local machine.
-- To get it running on your default browser and local host, run:
-```
-npm start
-```
+- To get it running in your terminal, run it in your IDE
 
 ### Run tests
 
 To run tests, run the following command:
 
-- Track HTML linter errors run:
 ```
-npx hint .
+rubocop
 ```
-- Track CSS linter errors run:
-```
-npx stylelint "**/*.{css,scss}"
-```
-- Track JavaScript linter errors run:
-```
-npx eslint .
-```
-
-### Deployment <a name="deployment"></a>
-
-You can deploy this project using: GitHub Pages,
-- I used GitHub Pages to deploy my website.
-- For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👤 Author <a name="author"></a>
+## 👤 Authors <a name="authors"></a>
 
 👤 **Is-haq, Adnan Olamilekan**
 
@@ -144,13 +109,17 @@ You can deploy this project using: GitHub Pages,
 - Twitter: [@AdnanIshaqOla](https://twitter.com/AdnanIshaqOla)
 - LinkedIn: [Adnan (Olamilekan) Is-haq](https://linkedin.com/in/adnan-is-haq-olamilekan)
 
+👤 **Samuel Munyi**
+
+- GitHub: [@devMunyi](https://github.com/devMunyi)
+- LinkedIn: [Samuel Munyi](https://www.linkedin.com/in/samuel-munyi-01315b174/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement button to switch sort type (ascending or descending).**
-- [ ] **Implement delete score feature.**
-- [ ] **Add different pages for different competitions.**
+- [ ] **Implement revese decoding.**
+- [ ] **Write Extra Message.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +141,7 @@ Give a ⭐️ if you like this project and how I managed to build it!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - The original design ideal from Microverse💕.
-- Project from [Microverse](https://bit.ly/MicroverseTN) JavaScript module.
+- Project from [Microverse](https://bit.ly/MicroverseTN) Ruby / Database and Interviewing module.
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
